@@ -1,0 +1,25 @@
+//distance between two cities 
+#include <stdio.h>
+
+int main() {
+   int kiliometers,meters;
+   float inches,feet,centimeters;
+   printf("Enter distance in kiliometers. = ");
+   scanf("%d",&kiliometers); 
+   
+   //kiliometers convert to meters
+   printf("Distance in meters. = ""%d\n",meters=kiliometers*1000);
+   
+   
+  //kiliometers convert to feet
+  printf("Distance in feet. = ""%f\n",feet=kiliometers*1000*3.28084);
+  
+  
+  //kiliometers convert to inches
+  printf("Distance in  inches. =  ""%f\n",inches=kiliometers*1000*3.28084*12);
+  
+
+//kiliometers convert to centimeter
+printf("Distance in centimerters. = ""%f\n",centimeters=kiliometers*100000);
+    return 0;
+}
